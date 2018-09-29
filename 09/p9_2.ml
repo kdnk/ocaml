@@ -8,11 +8,11 @@ type person_t = {
 }
 
 let person1 = {
-  name = "浅井"; 
-  shincho = 1.72; 
-  taiju = 58.5; 
-  tsuki = 9; 
-  hi = 17; 
+  name = "浅井";
+  shincho = 1.72;
+  taiju = 58.5;
+  tsuki = 9;
+  hi = 17;
   ketsueki = "A"
 }
 
@@ -33,3 +33,5 @@ let person3 = {
   hi = 6;
   ketsueki = "O"
 }
+
+let people = person1 :: person2 :: person3 :: []
