@@ -6,12 +6,11 @@ let rec count_ketsueki lst ketsueki = match lst with
   if ketsueki = k
     then 1 + count_ketsueki rest ketsueki
     else count_ketsueki rest ketsueki
-
  ;;
 
 let lst = [person1; person2; person3]
-;;
-(* テスト *)
+;
+
 let test1 = count_ketsueki [] "A" = 0
 let test2 = count_ketsueki lst "A" = 1
 let test3 = count_ketsueki lst "O" = 1

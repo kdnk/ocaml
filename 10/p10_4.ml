@@ -5,7 +5,6 @@ type person_t = {
   tsuki : int;
   hi: int;
   ketsueki : string;
-}
 
 let person1 = {
   name = "浅井";
